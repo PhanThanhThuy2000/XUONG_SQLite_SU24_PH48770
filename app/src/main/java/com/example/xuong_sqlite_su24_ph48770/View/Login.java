@@ -21,6 +21,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.xuong_sqlite_su24_ph48770.Fragment.QuanLyFragment;
+import com.example.xuong_sqlite_su24_ph48770.MainActivity;
 import com.example.xuong_sqlite_su24_ph48770.util.SendMail;
 
 import com.example.xuong_sqlite_su24_ph48770.DAO.UserDAO;
@@ -116,7 +117,7 @@ public class Login extends AppCompatActivity {
 
                 if (check) {
                     Toast.makeText(Login.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(Login.this, QuanLyFragment.class));
+                    startActivity(new Intent(Login.this, MainActivity.class));
 
                 } else {
                     Toast.makeText(Login.this, "Sai tài khoản hoặc mật khẩu vui lòng nhập lại", Toast.LENGTH_SHORT).show();

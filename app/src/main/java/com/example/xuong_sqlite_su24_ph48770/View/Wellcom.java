@@ -35,7 +35,7 @@ public class Wellcom extends AppCompatActivity {
             @Override
             public void onFinish() {// sau khi kết thúc 3s sẽ chuyển sang login
                 // Tạo intent để chuyển màn hinh
-                Intent intent = new Intent(Wellcom.this, QuanLyFragment.class);
+                Intent intent = new Intent(Wellcom.this, Login.class);
                 // Chay
                 startActivity(intent);
             }
