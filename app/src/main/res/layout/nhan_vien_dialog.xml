@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="16dp"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm mới nhân viên"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/dialog_ho_dem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập họ"/>
+    <EditText
+        android:id="@+id/dialog_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên"/>
+    <EditText
+        android:id="@+id/dialog_dia_chi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập địa chỉ"/>
+    <Spinner
+        android:id="@+id/spnPhongBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="18dp">
+
+        <Button
+            android:id="@+id/btndialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#4caf50"
+            android:text="Ok"/>
+
+        <Button
+            android:id="@+id/btndialog_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff9800"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="30dp"
+            android:text="Không"/>
+
+    </LinearLayout>
+</LinearLayout>
